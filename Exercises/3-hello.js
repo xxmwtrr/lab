@@ -2,6 +2,8 @@
 
 // Prepare function to print greeting with single argument
 
-const hello = null;
+const hello = (arg) => {
+  console.log(`Hello, ${arg}`);
+};
 
 module.exports = { hello };

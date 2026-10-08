@@ -5,6 +5,6 @@
   Example: `createUser('Marcus Aurelius', 'Roma')`
   will return object `{ name: 'Marcus Aurelius', city: 'Roma' }` */
 
-const createUser = null;
+const createUser = (name, city) => ({ name, city });
 
 module.exports = { createUser };
