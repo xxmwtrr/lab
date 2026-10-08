@@ -1,7 +1,7 @@
 {
   "name": "example",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.0.6",
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
     "ci": "eslint ./Exercises && hpw"
   },
   "dependencies": {
-    "eslint": "^9.10.0",
+    "eslint": "^8.57.1",
     "hpw": "^0.2.4"
   }
 }
